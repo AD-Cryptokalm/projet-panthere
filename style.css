@@ -411,6 +411,12 @@ blockquote {
     max-width: 270px;
 }
 
+.textDeco {
+    list-style-type: none;
+    font-size: 18px;
+    text-align: center;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -565,7 +571,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    /* opacity: 0; */
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -829,7 +835,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #121212!important;
 }
 
 .btn-atomic-tangerine:hover {
